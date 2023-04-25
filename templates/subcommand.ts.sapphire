@@ -7,8 +7,7 @@ import { Command, RegisterSubCommand } from "@kaname-png/plugin-subcommands-adva
 // TODO: Replace w/ parent command name
 @RegisterSubCommand("", (subcommand) => {
   subcommand
-    // TODO: Fill in
-    .setName("")
+    .setName("{{name}}")
     // TODO: Fill in
     .setDescription("");
   return subcommand;

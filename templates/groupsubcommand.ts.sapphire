@@ -7,8 +7,7 @@ import { Command, RegisterSubCommandGroup } from "@kaname-png/plugin-subcommands
 // TODO: Replace w/ parent command & group names
 @RegisterSubCommandGroup("", "", (builder) =>
   builder
-    // TODO: Fill in
-    .setName("")
+    .setName("{{name}}")
     // TODO: Fill in
     .setDescription("")
 )
