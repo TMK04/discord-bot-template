@@ -10,13 +10,15 @@
   "license": "MIT",
   "type": "commonjs",
   "dependencies": {
+    "@kaname-png/plugin-subcommands-advanced": "^2.2.1",
     "@sapphire/decorators": "^6.0.1",
-    "@sapphire/discord.js-utilities": "6.0.5",
-    "@sapphire/framework": "^4.3.1",
+    "@sapphire/discord.js-utilities": "^6.0.6",
+    "@sapphire/framework": "^4.4.1",
     "@sapphire/plugin-logger": "^3.0.3",
+    "@sapphire/plugin-subcommands": "^4.0.1",
     "@sapphire/utilities": "^3.11.1",
-    "@skyra/env-utilities": "^1.1.0",
-    "colorette": "^2.0.19",
+    "@skyra/env-utilities": "^1.2.0",
+    "colorette": "^2.0.20",
     "discord.js": "^14.9.0"
   },
   "devDependencies": {
