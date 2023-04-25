@@ -1,0 +1,19 @@
+{
+  "category": "commands"
+}
+---
+import { Command, RegisterSubCommandGroup } from "@kaname-png/plugin-subcommands-advanced";
+
+// TODO: Replace w/ parent command & group names
+@RegisterSubCommandGroup("", "", (builder) =>
+  builder
+    // TODO: Fill in
+    .setName("")
+    // TODO: Fill in
+    .setDescription("")
+)
+export class GroupSubCommand extends Command {
+  public override async chatInputRun(interaction: Command.ChatInputInteraction) {
+    return interaction.reply({ content: "Not implemented yet!", ephemeral: true });
+  }
+}
