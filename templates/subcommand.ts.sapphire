@@ -1,0 +1,20 @@
+{
+  "category": "commands"
+}
+---
+import { Command, RegisterSubCommand } from "@kaname-png/plugin-subcommands-advanced";
+
+// TODO: Replace w/ parent command name
+@RegisterSubCommand("", (subcommand) => {
+  subcommand
+    // TODO: Fill in
+    .setName("")
+    // TODO: Fill in
+    .setDescription("");
+  return subcommand;
+})
+export class SubCommand extends Command {
+  public override async chatInputRun(interaction: Command.ChatInputInteraction) {
+    return interaction.reply({ content: "Not implemented yet!", ephemeral: true });
+  }
+}
