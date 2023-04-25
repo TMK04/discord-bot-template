@@ -1,4 +1,5 @@
 {
+  "name": "discord-bot-template",
   "version": "1.0.0",
   "main": "dist/index.js",
   "author": "TMK04",
@@ -6,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/TMK04/discord-bot-template.git"
   },
-  "license": "GNU General Public License v3.0",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "@sapphire/decorators": "^6.0.1",

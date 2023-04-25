@@ -837,6 +837,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"discord-bot-template@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "discord-bot-template@workspace:."
+  dependencies:
+    "@sapphire/cli": ^1.5.0
+    "@sapphire/decorators": ^6.0.1
+    "@sapphire/discord.js-utilities": 6.0.5
+    "@sapphire/framework": ^4.3.1
+    "@sapphire/plugin-logger": ^3.0.3
+    "@sapphire/prettier-config": ^1.4.5
+    "@sapphire/ts-config": ^4.0.0
+    "@sapphire/utilities": ^3.11.1
+    "@skyra/env-utilities": ^1.1.0
+    "@types/eslint": ^8.37.0
+    "@types/node": ^18.15.11
+    "@types/ws": ^8.5.4
+    "@typescript-eslint/eslint-plugin": ^5.58.0
+    "@typescript-eslint/parser": ^5.58.0
+    colorette: ^2.0.19
+    discord.js: ^14.9.0
+    eslint: ^8.38.0
+    eslint-config-prettier: ^8.8.0
+    eslint-import-resolver-typescript: ^3.5.5
+    eslint-plugin-import: ^2.27.5
+    husky: ^8.0.3
+    prettier: ^2.8.7
+    tsc-watch: ^6.0.0
+    typescript: ^5.0.4
+  languageName: unknown
+  linkType: soft
+
 "discord.js@npm:^14.9.0":
   version: 14.9.0
   resolution: "discord.js@npm:14.9.0"
@@ -2351,37 +2382,6 @@ __metadata:
   checksum: 87f4164e396f0171b0a3386cc1877a817f572148ee13a7e113b238e48e8a9f2f31d009a92ec38a591ff1567d9662c6b67fd8818a2dbbaed74bc26a87a2a4a9a0
   languageName: node
   linkType: hard
-
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  dependencies:
-    "@sapphire/cli": ^1.5.0
-    "@sapphire/decorators": ^6.0.1
-    "@sapphire/discord.js-utilities": 6.0.5
-    "@sapphire/framework": ^4.3.1
-    "@sapphire/plugin-logger": ^3.0.3
-    "@sapphire/prettier-config": ^1.4.5
-    "@sapphire/ts-config": ^4.0.0
-    "@sapphire/utilities": ^3.11.1
-    "@skyra/env-utilities": ^1.1.0
-    "@types/eslint": ^8.37.0
-    "@types/node": ^18.15.11
-    "@types/ws": ^8.5.4
-    "@typescript-eslint/eslint-plugin": ^5.58.0
-    "@typescript-eslint/parser": ^5.58.0
-    colorette: ^2.0.19
-    discord.js: ^14.9.0
-    eslint: ^8.38.0
-    eslint-config-prettier: ^8.8.0
-    eslint-import-resolver-typescript: ^3.5.5
-    eslint-plugin-import: ^2.27.5
-    husky: ^8.0.3
-    prettier: ^2.8.7
-    tsc-watch: ^6.0.0
-    typescript: ^5.0.4
-  languageName: unknown
-  linkType: soft
 
 "run-parallel@npm:^1.1.9":
   version: 1.2.0
